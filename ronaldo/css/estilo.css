@@ -1,44 +1,77 @@
-header {
-    display: flex; /* Define o header como um container flex */
-    justify-content: space-between; /* Espaça o conteúdo ao longo do eixo principal */
-    align-items: center; /* Alinha o conteúdo ao longo do eixo cruzado */
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
+body{
+    background-color: #fafafa;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: auto;
+    background-color: rgb(237, 237, 237);
+    color: #006db7;
+    padding: 10px 2rem 10px 2rem;
+}
 
 .nav-menu ul {
-    display: flex; /* Define o ul como um container flex */
-    list-style-type: none;
-}
-.nav-menu li {
-    margin: 0 15px;
-}
+    display: flex;
+    list-style: none;
+    gap: 40px;
 
-.product-gallery {
-    display: flex; /* Define a galeria como um container flex */
-    justify-content: space-around; /* Espaça igualmente os itens */
-    flex-wrap: wrap; /* Permite que os itens quebrem a linha se necessário */
-    padding: 20px;
 }
 
+.nav-menu a {
+    text-decoration: none;
+    color: rgb(64, 35, 248);
+}
 
-.product-card {
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin: 15px;
+.bem-vindo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: auto;
+    background-color: #006db7;
+    color: rgb(255, 255, 255);
+}
+
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 18rem;
+    width: auto;
+    background-color: #fafafa;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 200px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 170px;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
+
+.card img {
+    width: 80x;
+    height: 100px;
+}
+
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #00aea0;
+    color: #ffc400;
+    font-weight: 900;
 }
+
