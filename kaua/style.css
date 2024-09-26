@@ -1,96 +1,132 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#titulo_navbar{
-    color: white;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-.navbar{
+
+.navbar {
     background-color: rgb(41, 39, 39);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
-    width: auto;
-    height: 75px;
+    padding: 1rem 2rem;
+    height: 5rem;
 }
 
-.navbar a{
+#titulo_navbar {
+    color: white;
+    font-size: 1.8em;
     text-decoration: none;
 }
 
-.navbar ul{
-    list-style-type: none;
-}
-
-.navbar li {
-    display: inline;
-    margin-left: 18px;
-
-}
-
-.navbar li a{
+.navbar a {
     text-decoration: none;
     color: white;
     font-size: 1.1em;
-    margin: 5PX;
 }
 
- a:hover{
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+}
+
+.navbar li a:hover {
     background-color: #333;
+    padding: 0.5em;
+    border-radius: 5px;
 }
 
-.cabecalho{
+
+.cabecalho {
     background-color: rgb(253, 195, 6);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px;
-    width: auto;
+    padding: 5%;
 }
 
-.cabecalho h2{
+.cabecalho h2 {
     font-size: 1.8em;
-    font-family: helvetica, Arial, sans-serif
+    margin-bottom: 0.5em;
 }
 
-.cabecalho h3{
-    font-family: helvetica, sans-serif, Arial, sans-serif
+.cabecalho h3 {
+    font-size: 1.2em;
+    color: #555;
 }
 
-.catalogo{
+.catalogo {
     background-color: #efebeb;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 3em;
+    gap: 2em;
 }
 
-.lista-catalogo{
-
+.lista-catalogo {
     background-color: #ffffff;
     border: 1px solid #0e0e0e;
-    padding: 55px;
-    margin: 65px;
-    width: 200px;
+    padding: 5%;
+    margin: 2em;
+    width: 100%;
+    max-width: 250px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
-.lista-catalogo img{
-    width: 180px;
-    height: 180px;
+.lista-catalogo:hover {
+    transform: translateY(-5px);
 }
 
-.nome-do-sapato{
-    font-weight:bolder;
+.lista-catalogo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.nome-do-sapato {
+    font-weight: bolder;
     font-size: 20px;
+    margin-bottom: 0.5em;
 }
 
+.valor-do-sapato {
+    font-size: 1.2em;
+    color: #555;
+}
 
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .catalogo {
+        padding: 1.5em;
+    }
+
+    .lista-catalogo {
+        max-width: 100%;
+        margin: 1em auto;
+    }
+}
