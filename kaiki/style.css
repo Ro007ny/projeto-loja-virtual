@@ -1,0 +1,103 @@
+.titulo-pagina{
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #19f06f;
+    margin: 10px;
+    justify-content: center;
+}
+
+body{
+    background-color: #c9f3da;
+}
+
+header {
+    display: flex; /* Define o header como um container flex */
+    justify-content: space-between; /* Espaça o conteúdo ao longo do eixo principal */
+    align-items: center; /* Alinha o conteúdo ao longo do eixo cruzado */
+    padding: 20px;
+    background-color: #333;
+    color: #bffad7;
+}
+
+header {
+    display: flex; /* Define o header como um container flex */
+    justify-content: center; /* Espaça o conteúdo ao longo do eixo principal */
+    align-items: center; /* Alinha o conteúdo ao longo do eixo cruzado */
+    padding: 20px;
+    background-color: #7af5ab;
+    color: #bffad7;
+}
+
+.nav-menu ul {
+    display: flex; /* Define o ul como um container flex */
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+  
+}
+.nav-menu li {
+    margin: 0 15px;
+}
+
+
+.catalogo {
+    display: flex; /* Define a galeria como um container flex */
+    justify-content: space-around; /* Espaça igualmente os itens */
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha se necessário */
+    padding: 10px 20px;
+    max-width: 100%;
+  height: auto;
+
+  
+}
+
+.card {
+    background-color: #7af5ab;
+    border: 1px solid #bffad7;
+    padding: 15px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.sub-titulo{
+    background-color: #7af5ab;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+h1{
+    text-align: cen;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-menu a:hover{
+    background-color: #19f06f;
+    padding: 20px;
+    border-radius: 20%;
+} 
+
