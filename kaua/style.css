@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo_navbar{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(41, 39, 39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: auto;
+    height: 75px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-left: 18px;
+
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    margin: 5PX;
+}
+
+ a:hover{
+    background-color: #333;
+}
+
+.cabecalho{
+    background-color: rgb(253, 195, 6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    width: auto;
+}
+
+.cabecalho h2{
+    font-size: 1.8em;
+    font-family: helvetica, Arial, sans-serif
+}
+
+.cabecalho h3{
+    font-family: helvetica, sans-serif, Arial, sans-serif
+}
+
+.catalogo{
+    background-color: #efebeb;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.lista-catalogo{
+
+    background-color: #ffffff;
+    border: 1px solid #0e0e0e;
+    padding: 55px;
+    margin: 65px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista-catalogo img{
+    width: 180px;
+    height: 180px;
+}
+
+.nome-do-sapato{
+    font-weight:bolder;
+    font-size: 20px;
+}
+
+
