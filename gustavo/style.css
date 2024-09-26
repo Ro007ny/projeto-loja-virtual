@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: auto;
+    background-color: black;
+    color: gold;
+    padding: 10px 2rem 10px 2rem;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: gold;
+}
+
+.bem-vindo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: auto;
+    background-color: yellow;
+    color: black;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 18rem;
+    width: auto;
+    background-color: grey;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 80x;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
