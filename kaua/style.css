@@ -19,6 +19,10 @@
     height: 75px;
 }
 
+.navbar a{
+    text-decoration: none;
+}
+
 .navbar ul{
     list-style-type: none;
 }
