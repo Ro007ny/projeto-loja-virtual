@@ -103,11 +103,14 @@ body {
 }
 
 .valor-do-sapato {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #555;
 }
 
-/* Media Queries para Responsividade */
+a:hover{
+
+}
+/* Media Queries para Responsividade
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -129,4 +132,4 @@ body {
         max-width: 100%;
         margin: 1em auto;
     }
-}
+} */
