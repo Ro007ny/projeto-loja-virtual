@@ -72,6 +72,7 @@ body {
     flex-wrap: wrap;
     padding: 3em;
     gap: 2em;
+    
 }
 
 .lista-catalogo {
@@ -79,11 +80,11 @@ body {
     border: 1px solid #0e0e0e;
     padding: 5%;
     margin: 2em;
-    width: 100%;
     max-width: 250px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    
 }
 
 .lista-catalogo:hover {
@@ -100,6 +101,7 @@ body {
     font-weight: bolder;
     font-size: 20px;
     margin-bottom: 0.5em;
+    flex-wrap: nowrap;
 }
 
 .valor-do-sapato {
@@ -110,7 +112,7 @@ body {
 a:hover{
 
 }
-/* Media Queries para Responsividade
+Media Queries para Responsividade
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -132,4 +134,4 @@ a:hover{
         max-width: 100%;
         margin: 1em auto;
     }
-} */
+}
