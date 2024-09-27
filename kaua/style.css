@@ -112,7 +112,7 @@ body {
 a:hover{
 
 }
-Media Queries para Responsividade
+/* Media Queries para Responsividade */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
